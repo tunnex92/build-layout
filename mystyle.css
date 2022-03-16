@@ -1,0 +1,94 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 37% 37% 26%;
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    grid-template-areas:
+    "navigation navigation navigation"
+    "mind mainpage aside"
+    "mindbottom mainpage aside"
+    "mindbottom footer aside"
+    
+    ;
+}
+.main{
+    background-color: rgb(175, 172, 172);
+}
+container{
+   /* height: 60px; */
+    grid-area: navigation;
+    /* background-color: rgb(59, 59, 31); */
+   
+    
+}
+foncon{
+    /* background-color: white; */
+    grid-area: mind;
+    /* border: 5px solid grey; */
+}
+lapatop{
+    /* background-color: white; */
+    grid-area: mainpage;
+/* border: 5px solid grey; */
+}
+desktop{
+    /* background-color: white; */
+    grid-area: aside;
+/* border: 5px solid grey; */
+}
+bottle{
+    /* background-color: white; */
+    grid-area: footer;
+
+}
+desk{
+    /* background-color: white; */
+    grid-area: mindbottom;
+    /* border: 5px solid grey; */
+}
+foncon,lapatop,desktop,bottle,desk,container{
+    font-size: 25px;
+    font-family: montserrat;
+    color: black;
+    text-align: center;
+    /* border-radius: 5px; */
+    border: solid #123c69;
+    background-color: #edc787;
+}
+button{
+    background-color: blue;
+    color:white;
+    width:80px; height:40px;
+    font-family:montserrat;
+    border-radius:6px;
+}
+button:hover{
+    background-color: gold;
+    color:black;
+    cursor: pointer;
+}
+.profile img{
+    position: absolute;
+    right: 25px;
+    width: 50px;
+    top: 20px;
+}
+/* nav{
+    background-color: rebeccapurple;
+    
+}
+nav ul{
+background-color: red;
+justify-items: center;
+}
+nav ul li{
+    background-color: green;
+    display: inline;
+    justify-items: center;
+}
+nav.dropdown{
+    background-color: wheat;
+    display: block;
+    font-family: serif;
+} */
